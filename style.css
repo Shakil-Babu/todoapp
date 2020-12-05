@@ -1,0 +1,95 @@
+
+
+.AddBtn{
+
+    color: white;
+    background-color: #dc3545;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    
+    padding: 3px;
+    margin-top: 9px;
+    font-size: 13px;
+    transition: .6s;
+    
+}
+.AddBtn:hover{
+    transition: .6s;
+    background:none;
+    color:#dc3545 ;
+    border: 1px solid #dc3545 ;
+    transform:rotate(360deg);
+}
+
+
+    
+
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+    font-size: 18px;
+    list-style-type: circle;
+    font-family: monospace;
+    font-weight: 600;
+    background-color: #e8e8e8;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #c3bbbb;
+    border-left: none;
+    border-right: none;
+}
+
+.Btn{
+    color:#dc3545;;
+    border-color: #dc3545;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    transition: .6s;
+    padding: 3px;
+   
+    font-size:11px;
+    opacity: 0;
+}
+.Btn:hover{
+    border-color: no;
+    background-color: #dc3545;
+    color: white;
+    transform: rotate(360deg);
+}
+
+.list:hover .Btn {
+    opacity: 1;
+}
+
+
+.ShakilBabu{
+    color:#dc3545 ;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+   
+}
+.Babu{
+    color: orangered;
+    padding:0; margin:0;
+    
+    animation:Pulse .8s infinite;
+}
+@keyframes Pulse {
+    0% {
+    
+      transform: scaleX(1);
+    }
+    50% {
+
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
+    to {
+     
+      transform: scaleX(1);
+    }
+  }

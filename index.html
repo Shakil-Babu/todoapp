@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+    <link rel="stylesheet" href="./css/animate.min.css">
+    <title>ToDo_List</title>
+</head>
+<body>
+<body>
+    <div class="container">
+      
+          
+           <div class="row">
+               <div class="col-md-3"></div>
+               <div class="col-md-6 text-center">
+           <div class="box mt-5">
+            <h4 class="animated heartBeat" style="font-size: 40px; color:rgb(102, 97, 97); letter-spacing: 1px; font-family: monospace;">todo<span  style="color:black; font-weight: bold;">list</span></h4> 
+            <p style="color: rgb(153, 147, 147); text-transform: capitalize;">A Simple to do App build with vanila JS</p>
+            <hr style="width:70px; height:2px ; background-color:orangered; ">
+
+            <div class="d-flex mt-2">
+                <input placeholder="Make your to do list " type="text" id="inputField" class="form-control" style="border-top:none; border-left:none; border-right: none;" > 
+                <button id="addBtn" class="ml-2 AddBtn ">Add</button>
+            </div>
+            <div class="showError">
+                <h5 class="alert-danger mt-2 " id='show'></h5>
+            </div>
+           </div>
+               </div>
+               <div class="col-md-3"></div>
+           </div>
+
+           <!-- Another section -->
+           <div class="row">
+               <div class="col-md-3"></div>
+               <div class="col-md-6">
+                <div class="card text-center mt-5 " id="showBox">
+                    <div class="card-body">
+                  
+                            <h4 class="card-title animated swing">My todo<span style="color:black; font-weight: bold;">List</span> : </h4>
+                            <hr style="width:70px; height:2px ; background-color:orangered; ">
+    
+                            <div id="mainList" class="text-left">
+                                <div id='flexItem' style="display:flex ; justify-content:space-between">
+                                
+                                </div>
+                            </div>
+                      
+                    </div>
+                </div>
+
+                <footer class="mt-5 text-center" style="background-color: rgb(226, 223, 223); padding:10px; border-radius: 5px;">
+                    <h6 class="Babu">Created by :<span class="ShakilBabu">Shakil <span>Babu.</span></span> </h6>
+                </footer>
+               </div>
+               <div class="col-md-3"></div>
+           </div>
+
+
+
+		  
+		
+    </div>
+
+
+
+<!-- Script -->
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/jquery-slim.min.js"></script>
+<script src="./js/popper.min.js"></script>
+<script src="./code.js"></script>
+</body>
+</html>
